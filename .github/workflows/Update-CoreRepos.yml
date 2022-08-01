@@ -20,5 +20,5 @@ jobs:
               owner: 'Jax-Core',
               repo: 'ReadME-Test',
               workflow_id: 'Dynamic-Readme.yml',
-              ref: 'master'
+              ref: 'main'
             })
