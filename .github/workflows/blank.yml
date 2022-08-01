@@ -1,0 +1,21 @@
+- name: Dynamic Readme
+  # You may pin to the exact commit or the version.
+  # uses: varunsridharan/action-dynamic-readme@48767653b2ebb9778d3583c7e8255e20062c1aab
+  uses: varunsridharan/action-dynamic-readme@1.2
+  with:
+    # Enter Multiple by , seperated
+    files: 
+    # Delimiter which can be used to identify the template tags 
+    delimiter: # optional, default is 
+    # Compiles the template files with provided template engine.
+    template_engine: # optional, default is mustache
+    # You Can Provide A Global Repository Where All Your Common Files Are Stored
+    global_template_repository: # optional
+    # Specify the committer name
+    committer_name: # optional, default is Dynamic Readme
+    # Specify the committer email
+    committer_email: # optional, default is githubactionbot+dynamicreadme@gmail.com
+    # set a custom commit message
+    commit_message: # optional, default is 💬 - File Rebuilt - Github Action Runner : ${GITHUB_RUN_NUMBER}
+    # Commit the changes and push directly to repository
+    confirm_and_push: # optional, default is true
