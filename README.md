@@ -37,6 +37,7 @@ jobs:
         uses: "varunsridharan/action-dynamic-readme@main"
         with:
           GLOBAL_TEMPLATE_REPOSITORY: Jax-Core/ReadME-Template/Templates
+          commit_message: ⏩ File Rebuilt by Github Actions - Dynamic ReadME
           files: |
             README.md
         env:
