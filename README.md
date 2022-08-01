@@ -1,3 +1,5 @@
+This repo is a guide for myself on how to setup Dynamic Readme, but if you are interested in doing something similar feel free to take a look
+
 # JaxCore ReadME-Template
 Uses [Dynamic Readme](https://github.com/marketplace/actions/dynamic-readme) github action.
 
