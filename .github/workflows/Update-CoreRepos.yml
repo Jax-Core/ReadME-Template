@@ -18,7 +18,25 @@ jobs:
           script: |
             await github.rest.actions.createWorkflowDispatch({
               owner: 'Jax-Core',
-              repo: 'ReadME-Test',
+              repo: 'JaxCore',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'ValliStart',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'YourMixer',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'YourFlyouts',
               workflow_id: 'Dynamic-Readme.yml',
               ref: 'main'
             })
