@@ -4,6 +4,8 @@ This repo is a guide for myself on how to setup Dynamic Readme, but if you are i
 Uses [Dynamic Readme](https://github.com/marketplace/actions/dynamic-readme) github action.
 
 ## Use template in module repo
+Create a workflow file `Dynamic-Readme.yml` with the following contents
+
 ```yml
 name: "📄  Dynamic ReadME"
 
@@ -46,3 +48,7 @@ jobs:
 Use `<!-- START name_of_part.mustache -->` and `<!-- END name_of_part.mustache -->` to include a part into the readme
 Assets can be found in this repo
 
+```
+<!-- START Header.mustache -->
+<!-- END Header.mustache -->
+```
