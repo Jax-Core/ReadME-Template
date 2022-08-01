@@ -18,7 +18,7 @@ jobs:
           script: |
             await github.rest.actions.createWorkflowDispatch({
               owner: 'Jax-Core',
-              repo: 'Jax-Core',
+              repo: 'JaxCore',
               workflow_id: 'Dynamic-Readme.yml',
               ref: 'main'
             })
