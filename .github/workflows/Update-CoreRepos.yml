@@ -40,3 +40,39 @@ jobs:
               workflow_id: 'Dynamic-Readme.yml',
               ref: 'main'
             })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'Keylaunch',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'IdleStyle',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'Plainext',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'ModularPlayers',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'ModularClocks',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'Jax-Core',
+              repo: 'ModularVisualizer',
+              workflow_id: 'Dynamic-Readme.yml',
+              ref: 'main'
+            })
