@@ -43,6 +43,6 @@ jobs:
 ```
 
 ## Creating ReadME
-Use `<!-- START name_of_part.md -->` and `<!-- END name_of_part.md -->` to include a part into the readme
+Use `<!-- START name_of_part.mustache -->` and `<!-- END name_of_part.mustache -->` to include a part into the readme
 Assets can be found in this repo
 
